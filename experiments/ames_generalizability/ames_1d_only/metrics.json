@@ -1,0 +1,7 @@
+{
+  "model": "ames_1d_only",
+  "auroc": 0.7232156533145861,
+  "loss": 0.6233354806900024,
+  "best_val_auroc": 0.8370263788968825,
+  "epochs_trained": 15
+}

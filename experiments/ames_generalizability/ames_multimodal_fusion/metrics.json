@@ -1,0 +1,7 @@
+{
+  "model": "ames_multimodal_gated",
+  "auroc": 0.7138682805939902,
+  "loss": 0.6735584139823914,
+  "best_val_auroc": 0.834308553157474,
+  "epochs_trained": 17
+}

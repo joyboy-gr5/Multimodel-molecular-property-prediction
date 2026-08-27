@@ -1,0 +1,27 @@
+[
+  {
+    "model": "2D-only",
+    "val_auroc": 0.8816706634692247,
+    "test_auroc": 0.8363787571136254
+  },
+  {
+    "model": "3D-only (learned_attention)",
+    "val_auroc": 0.8496722621902477,
+    "test_auroc": 0.8041430854970406
+  },
+  {
+    "model": "Multimodal (concat)",
+    "val_auroc": 0.8662030375699441,
+    "test_auroc": 0.7862122324903679
+  },
+  {
+    "model": "1D-only",
+    "val_auroc": 0.8370263788968825,
+    "test_auroc": 0.7232156533145861
+  },
+  {
+    "model": "Multimodal (gated)",
+    "val_auroc": 0.834308553157474,
+    "test_auroc": 0.7138682805939902
+  }
+]

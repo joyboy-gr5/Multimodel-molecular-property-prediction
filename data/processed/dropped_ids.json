@@ -1,0 +1,18 @@
+[
+  {
+    "id": "BMCL-16-2006-4263-1",
+    "smiles": "CN1CCN(CCCN(C(=O)Nc2ccc(F)c(C(F)(F)F)c2)[C@@H]2C[C@@H](c3ccc(C#N)cc3)[C@@H]3C[C@H]32)CC1"
+  },
+  {
+    "id": "BMCL-16-2006-4265_26",
+    "smiles": "CN1CCN(CCCN(C(=O)Nc2ccc(F)c(C(F)(F)F)c2)[C@@H]2C[C@@H](c3ccc4c(c3)[C@H](N)NO4)[C@@H]3C[C@H]32)CC1"
+  },
+  {
+    "id": "AJMALINE",
+    "smiles": "CC[C@H]1[C@H]2C[C@H]3[C@@H]4N(C)c5ccccc5[C@]45C[C@@H]([C@H]2[C@H]5O)N3[C@@H]1O"
+  },
+  {
+    "id": "METHYLECGONIDINE",
+    "smiles": "COC(=O)C1=CC[C@@H]2CC[C@@H]1[NH+]2C"
+  }
+]

@@ -1,0 +1,21 @@
+model:
+  hidden_channels: 128
+  num_filters: 128
+  num_interactions: 3
+  num_gaussians: 50
+  cutoff: 10.0            # Angstrom, radius for interatomic edges
+  max_z: 100               # covers all atomic numbers we'll see
+  agg_mode: learned_attention   # weighted_mean | uniform_mean | learned_attention
+
+train:
+  batch_size: 32
+  lr: 0.0003
+  weight_decay: 0.00001
+  epochs: 60
+  patience: 10
+  seed: 42
+
+paths:
+  splits_file: ../data/splits.json
+  conformers_dir: ../data/processed/conformers
+  experiment_dir: ../experiments/3d_only

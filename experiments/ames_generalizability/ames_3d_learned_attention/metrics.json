@@ -1,0 +1,7 @@
+{
+  "model": "ames_3d_learned_attention",
+  "auroc": 0.8041430854970406,
+  "loss": 0.5476686358451843,
+  "best_val_auroc": 0.8496722621902477,
+  "epochs_trained": 29
+}

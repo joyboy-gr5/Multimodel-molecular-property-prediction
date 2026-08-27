@@ -1,0 +1,52 @@
+{
+  "model": "multimodal_concat",
+  "auroc": 0.88375,
+  "loss": 0.3648572564125061,
+  "best_val_auroc": 0.88375,
+  "epochs_trained": 21,
+  "config": {
+    "encoders": {
+      "selfies": {
+        "d_model": 128,
+        "n_heads": 4,
+        "n_layers": 4,
+        "d_ff": 256,
+        "dropout": 0.1,
+        "max_len": 128
+      },
+      "graph": {
+        "hidden_dim": 128,
+        "n_layers": 4,
+        "dropout": 0.1
+      },
+      "schnet": {
+        "hidden_channels": 128,
+        "num_filters": 128,
+        "num_interactions": 3,
+        "num_gaussians": 50,
+        "cutoff": 10.0,
+        "max_z": 100,
+        "agg_mode": "learned_attention"
+      }
+    },
+    "fusion": {
+      "type": "concat",
+      "fusion_dim": 128
+    },
+    "train": {
+      "batch_size": 32,
+      "lr": 0.0003,
+      "weight_decay": 1e-05,
+      "epochs": 60,
+      "patience": 10,
+      "seed": 42
+    },
+    "paths": {
+      "splits_file": "../data/splits.json",
+      "vocab_file": "../data/processed/selfies_vocab.json",
+      "conformers_dir": "../data/processed/conformers",
+      "experiment_dir_concat": "../experiments/multimodal_concat",
+      "experiment_dir_gated": "../experiments/multimodal_fusion"
+    }
+  }
+}

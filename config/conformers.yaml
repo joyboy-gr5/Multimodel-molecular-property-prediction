@@ -1,0 +1,15 @@
+conformers:
+  n_confs: 8              # conformers to attempt per molecule (ETKDG proposes, some get pruned/fail)
+  prune_rms_thresh: 0.5   # Angstrom — discard conformers too similar to one already kept
+  max_iters: 500          # MMFF optimization steps
+  forcefield: MMFF94       # fallback to UFF if MMFF params unavailable for an atom type
+  energy_window_kcal: 10.0 # drop conformers this far above the lowest-energy one (negligible Boltzmann weight anyway)
+  random_seed: 42
+
+boltzmann:
+  temperature_K: 298.15
+
+paths:
+  splits_file: ../data/splits.json
+  out_dir: ../data/processed/conformers
+  manifest_file: ../data/processed/conformer_manifest.json

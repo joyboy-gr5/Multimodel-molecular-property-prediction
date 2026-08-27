@@ -1,0 +1,152 @@
+[
+  {
+    "model": "1d_only",
+    "seed": 1,
+    "val_auroc": 0.8424999999999999,
+    "test_auroc": 0.71620029455081
+  },
+  {
+    "model": "2d_only",
+    "seed": 1,
+    "val_auroc": 0.88,
+    "test_auroc": 0.7322533136966126
+  },
+  {
+    "model": "3d_learned_attention",
+    "seed": 1,
+    "val_auroc": 0.87375,
+    "test_auroc": 0.8310751104565538
+  },
+  {
+    "model": "multimodal_concat",
+    "seed": 1,
+    "val_auroc": 0.8712500000000001,
+    "test_auroc": 0.7569955817378498
+  },
+  {
+    "model": "multimodal_gated",
+    "seed": 1,
+    "val_auroc": 0.8175,
+    "test_auroc": 0.7954344624447718
+  },
+  {
+    "model": "1d_only",
+    "seed": 2,
+    "val_auroc": 0.8712206047032475,
+    "test_auroc": 0.758321060382916
+  },
+  {
+    "model": "2d_only",
+    "seed": 2,
+    "val_auroc": 0.8241881298992161,
+    "test_auroc": 0.7441826215022092
+  },
+  {
+    "model": "3d_learned_attention",
+    "seed": 2,
+    "val_auroc": 0.8617021276595745,
+    "test_auroc": 0.8285714285714286
+  },
+  {
+    "model": "multimodal_concat",
+    "seed": 2,
+    "val_auroc": 0.8857782754759238,
+    "test_auroc": 0.8472754050073638
+  },
+  {
+    "model": "multimodal_gated",
+    "seed": 2,
+    "val_auroc": 0.8801791713325868,
+    "test_auroc": 0.7863033873343152
+  },
+  {
+    "model": "1d_only",
+    "seed": 3,
+    "val_auroc": 0.890798786653185,
+    "test_auroc": 0.7491899852724596
+  },
+  {
+    "model": "2d_only",
+    "seed": 3,
+    "val_auroc": 0.9241658240647119,
+    "test_auroc": 0.7505154639175258
+  },
+  {
+    "model": "3d_learned_attention",
+    "seed": 3,
+    "val_auroc": 0.8816986855409504,
+    "test_auroc": 0.8266568483063328
+  },
+  {
+    "model": "multimodal_concat",
+    "seed": 3,
+    "val_auroc": 0.9241658240647118,
+    "test_auroc": 0.749779086892489
+  },
+  {
+    "model": "multimodal_gated",
+    "seed": 3,
+    "val_auroc": 0.8756319514661274,
+    "test_auroc": 0.7170839469808542
+  },
+  {
+    "model": "1d_only",
+    "seed": 4,
+    "val_auroc": 0.8475390156062426,
+    "test_auroc": 0.6625920471281297
+  },
+  {
+    "model": "2d_only",
+    "seed": 4,
+    "val_auroc": 0.9051620648259302,
+    "test_auroc": 0.7609720176730486
+  },
+  {
+    "model": "3d_learned_attention",
+    "seed": 4,
+    "val_auroc": 0.8025210084033613,
+    "test_auroc": 0.7603829160530192
+  },
+  {
+    "model": "multimodal_concat",
+    "seed": 4,
+    "val_auroc": 0.8727490996398559,
+    "test_auroc": 0.7321060382916053
+  },
+  {
+    "model": "multimodal_gated",
+    "seed": 4,
+    "val_auroc": 0.914765906362545,
+    "test_auroc": 0.7597938144329898
+  },
+  {
+    "model": "1d_only",
+    "seed": 5,
+    "val_auroc": 0.862298195631529,
+    "test_auroc": 0.7727540500736377
+  },
+  {
+    "model": "2d_only",
+    "seed": 5,
+    "val_auroc": 0.8584995251661918,
+    "test_auroc": 0.7664212076583211
+  },
+  {
+    "model": "3d_learned_attention",
+    "seed": 5,
+    "val_auroc": 0.9069325735992403,
+    "test_auroc": 0.843740795287187
+  },
+  {
+    "model": "multimodal_concat",
+    "seed": 5,
+    "val_auroc": 0.9392212725546059,
+    "test_auroc": 0.8396170839469809
+  },
+  {
+    "model": "multimodal_gated",
+    "seed": 5,
+    "val_auroc": 0.8879392212725545,
+    "test_auroc": 0.8092783505154639
+  }
+]

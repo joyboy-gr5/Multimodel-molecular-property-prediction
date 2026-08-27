@@ -1,0 +1,26 @@
+{
+  "model": "2d_only",
+  "auroc": 0.88125,
+  "loss": 0.3752705752849579,
+  "best_val_auroc": 0.88125,
+  "epochs_trained": 17,
+  "config": {
+    "model": {
+      "hidden_dim": 128,
+      "n_layers": 4,
+      "dropout": 0.1
+    },
+    "train": {
+      "batch_size": 32,
+      "lr": 0.0003,
+      "weight_decay": 1e-05,
+      "epochs": 60,
+      "patience": 10,
+      "seed": 42
+    },
+    "paths": {
+      "splits_file": "../data/splits.json",
+      "experiment_dir": "../experiments/2d_only"
+    }
+  }
+}

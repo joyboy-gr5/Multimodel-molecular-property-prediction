@@ -1,0 +1,31 @@
+{
+  "model": "3d_uniform_mean",
+  "auroc": 0.848125,
+  "loss": 0.449043333530426,
+  "best_val_auroc": 0.848125,
+  "epochs_trained": 34,
+  "config": {
+    "model": {
+      "hidden_channels": 128,
+      "num_filters": 128,
+      "num_interactions": 3,
+      "num_gaussians": 50,
+      "cutoff": 10.0,
+      "max_z": 100,
+      "agg_mode": "weighted_mean"
+    },
+    "train": {
+      "batch_size": 32,
+      "lr": 0.0003,
+      "weight_decay": 1e-05,
+      "epochs": 60,
+      "patience": 10,
+      "seed": 42
+    },
+    "paths": {
+      "splits_file": "../data/splits.json",
+      "conformers_dir": "../data/processed/conformers",
+      "experiment_dir": "../experiments/3d_only"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "model": "3d_learned_attention",
+    "val_auroc": 0.88625,
+    "test_auroc": 0.8350515463917526
+  },
+  {
+    "model": "3d_uniform_mean",
+    "val_auroc": 0.848125,
+    "test_auroc": 0.8247422680412371
+  },
+  {
+    "model": "3d_weighted_mean",
+    "val_auroc": 0.825,
+    "test_auroc": 0.8241531664212076
+  },
+  {
+    "model": "multimodal_concat",
+    "val_auroc": 0.88375,
+    "test_auroc": 0.8132547864506627
+  },
+  {
+    "model": "1d_only",
+    "val_auroc": 0.84625,
+    "test_auroc": 0.7592047128129602
+  },
+  {
+    "model": "multimodal_gated",
+    "val_auroc": 0.84625,
+    "test_auroc": 0.7425625920471282
+  },
+  {
+    "model": "2d_only",
+    "val_auroc": 0.88125,
+    "test_auroc": 0.7147275405007364
+  }
+]

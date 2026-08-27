@@ -1,0 +1,20 @@
+model:
+  d_model: 128
+  n_heads: 4
+  n_layers: 4
+  d_ff: 256
+  dropout: 0.1
+  max_len: 128          # tokens; truncate/pad SELFIES sequences to this length
+
+train:
+  batch_size: 32
+  lr: 0.0003
+  weight_decay: 0.00001
+  epochs: 60
+  patience: 10           # early stop if val AUROC doesn't improve for this many epochs
+  seed: 42
+
+paths:
+  splits_file: ../data/splits.json
+  vocab_file: ../data/processed/selfies_vocab.json
+  experiment_dir: ../experiments/1d_only

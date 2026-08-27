@@ -1,0 +1,37 @@
+[
+  {
+    "model": "3d_learned_attention",
+    "test_auroc_mean": 0.8180854197349042,
+    "test_auroc_std": 0.03293909174524058,
+    "n_seeds": 5,
+    "test_auroc_display": "0.818 +/- 0.033"
+  },
+  {
+    "model": "multimodal_concat",
+    "test_auroc_mean": 0.7851546391752577,
+    "test_auroc_std": 0.05404549867673429,
+    "n_seeds": 5,
+    "test_auroc_display": "0.785 +/- 0.054"
+  },
+  {
+    "model": "multimodal_gated",
+    "test_auroc_mean": 0.7735787923416789,
+    "test_auroc_std": 0.036385908177039704,
+    "n_seeds": 5,
+    "test_auroc_display": "0.774 +/- 0.036"
+  },
+  {
+    "model": "2d_only",
+    "test_auroc_mean": 0.7508689248895435,
+    "test_auroc_std": 0.013558378874746764,
+    "n_seeds": 5,
+    "test_auroc_display": "0.751 +/- 0.014"
+  },
+  {
+    "model": "1d_only",
+    "test_auroc_mean": 0.7318114874815906,
+    "test_auroc_std": 0.043920676622890294,
+    "n_seeds": 5,
+    "test_auroc_display": "0.732 +/- 0.044"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "model": "ames_multimodal_concat",
+  "auroc": 0.7862122324903679,
+  "loss": 0.5618897080421448,
+  "best_val_auroc": 0.8662030375699441,
+  "epochs_trained": 15
+}

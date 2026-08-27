@@ -1,0 +1,10 @@
+dataset:
+  source: tdc_admet_group      # official benchmark group -> guarantees leaderboard-comparable split
+  name: hERG                   # binary classification, Tox endpoint, TDC leaderboard exists
+  data_path: ../data/raw
+  dev_seed: 1                  # single seed used for development/ablations (full protocol = 5 seeds, see README limitations)
+
+splits:
+  out_file: data/splits.json
+
+seed: 42
